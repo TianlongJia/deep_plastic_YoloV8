@@ -1,0 +1,41 @@
+# Path in RT_woekstation
+train: F:\Tianlong\Data\Vietnam_3_class_V4_original\train
+val: F:\Tianlong\Data\Vietnam_3_class_V4_original\test
+test: F:\Tianlong\Data\Vietnam_3_class_V4_original\test
+
+# train: F:\Tianlong\Data\Vietnam_3_class_V2\train
+# val: F:\Tianlong\Data\Vietnam_3_class_V2\test
+# test: F:\Tianlong\Data\Vietnam_3_class_V2\test
+
+
+# Path in DelftBlue
+
+# train: /scratch/tjian/Data/Vietnam_dataset/train
+# val: /scratch/tjian/Data/Vietnam_dataset/val
+# test: /scratch/tjian/Data/Vietnam_dataset/test
+
+
+
+#Classes
+nc: 3 # replace according to your number of classes
+
+#classes names
+#replace all class names list with your classes names
+names:
+  
+  # (2) Vietnam
+  0: ff_litter
+  1: hyacinth
+  2: ent_litter
+
+  # 3: litter_ent_unsure
+  # 4: litter_ff_unsure
+  
+  
+  # 1: bicycle
+  # 2: car
+  # 3: motorcycle
+  # 4: bus
+  # 5: truck
+  # 6: traffic_light
+  # 7: stop_sign
