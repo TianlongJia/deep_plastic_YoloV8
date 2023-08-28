@@ -1,0 +1,26 @@
+train: /scratch/tjian/Data/Paper2_Exp5/OD/Oos_80per/train/
+val: /scratch/tjian/Data/Paper2_Exp5/OD/Oos_100per/test/
+test: /scratch/tjian/Data/Paper2_Exp5/OD/Oos_100per/test/
+
+#Classes
+nc: 1 # replace according to your number of classes
+
+#classes names
+#replace all class names list with your classes names
+names:
+  0: litter
+
+  # 0: litter_ff_sure
+  # 1: hyacinth
+  # 2: litter_ent_sure
+  # 3: litter_ent_unsure
+  # 4: litter_ff_unsure
+
+  # 0: plastic
+  # 1: bicycle
+  # 2: car
+  # 3: motorcycle
+  # 4: bus
+  # 5: truck
+  # 6: traffic_light
+  # 7: stop_sign
