@@ -1,7 +1,7 @@
 # Path in RT_woekstation
-train: U:\AIMMW\Vietnam\Vietnam_3_class_V4_original\train
-val: U:\AIMMW\Vietnam\Vietnam_3_class_V4_original\test
-test: U:\AIMMW\Vietnam\Vietnam_3_class_V4_original\test
+train: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/train
+val: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/test
+test: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/test
 
 # train: F:\Tianlong\Data\Vietnam_3_class_V2\train
 # val: F:\Tianlong\Data\Vietnam_3_class_V2\test
