@@ -195,16 +195,22 @@ class ConfusionMatrix:
 
         x = torch.where(iou > self.iou_thres)
         if x[0].shape[0]:
+            # matches is 2D vetor 
+            # each row contains [index_1, index_2, iou_value].
+            # index_1: the index of ground-truth
+            # index_2: the index of detections
             matches = torch.cat((torch.stack(x, 1), iou[x[0], x[1]][:, None]), 1).cpu().numpy()
             if x[0].shape[0] > 1:
+                matches = matches[matches[:, 2].argsort()[::-1]] # sorts the matches array based on the IoU values (third column) in descending order.
+                matches = matches[np.unique(matches[:, 1], return_index=True)[1]] # keep each unique value in the index of detections (second column) of matches.
                 matches = matches[matches[:, 2].argsort()[::-1]]
-                matches = matches[np.unique(matches[:, 1], return_index=True)[1]]
-                matches = matches[matches[:, 2].argsort()[::-1]]
-                matches = matches[np.unique(matches[:, 0], return_index=True)[1]]
+                matches = matches[np.unique(matches[:, 0], return_index=True)[1]] # keep each unique value in the index of ground-truth (fiest column) of matches.
         else:
             matches = np.zeros((0, 3))
 
         n = matches.shape[0] > 0
+        # m0 contains the unqiue ground-truth indices,
+        # m1 contains the unqiue detection indices,
         m0, m1, _ = matches.transpose().astype(int)
         for i, gc in enumerate(gt_classes):
             j = m0 == i
@@ -215,8 +221,8 @@ class ConfusionMatrix:
 
         if n:
             for i, dc in enumerate(detection_classes):
-                if not any(m1 == i):
-                    self.matrix[dc, self.nc] += 1  # predicted background
+                if not any(m1 == i): 
+                    self.matrix[dc, self.nc] += 1  # predicted background 
 
     def matrix(self):
         return self.matrix

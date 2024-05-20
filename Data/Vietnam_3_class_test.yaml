@@ -1,11 +1,11 @@
 # Path in RT_woekstation
-train: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/train
-val: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/test
-test: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/test
+# train: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/train
+# val: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/test
+# test: /scratch/tjian/Data/Vietnam_3_class_V4_original_HF/test
 
-# train: F:\Tianlong\Data\Vietnam_3_class_V2\train
-# val: F:\Tianlong\Data\Vietnam_3_class_V2\test
-# test: F:\Tianlong\Data\Vietnam_3_class_V2\test
+train: F:/Tianlong/Data/Vietnam_3_class_V4_HF/train
+val: F:/Tianlong/Data/Vietnam_3_class_V4_HF/test
+test: F:/Tianlong/Data/Vietnam_3_class_V4_HF/test
 
 
 # Path in DelftBlue
