@@ -1,11 +1,11 @@
-# Detection of floating litter using Yolov8 deep learning model
+# Detection of floating plastic litter and water hyacinths using Yolov8 deep learning model
 
 This repository contains the code used for the following publication:
 ```bash
   To do: XXXXXXXX
 ```
 
-The aim of this code is to use Yolov8 deep learning model to detect floating litter in the Saigon rivers, Vietnam.
+The aim of this code is to use Yolov8 deep learning model to detect floating plastic litter and water hyacinths in the Saigon rivers, Vietnam.
 
 Acknowledgement:
 
@@ -42,9 +42,9 @@ conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=
 -  `main_Evaluate.ipynb` is the code for (1) evaluating model performances on test sets (e.g., output mAP50, precision and recall), (2) predicting objects in images and videos, and (3) outputing bounding box (bbox) information (e.g., the area of each bbox).
 
 
-## Citing this project or paper
+## Citing this dataste or paper
 
-If you find this project is useful in your research or wish to refer to the paper, please use the following BibTeX entry.
+If you find this code and dataset are useful in your research or wish to refer to the paper, please use the following BibTeX entry.
 
 ```BibTeX
 XXXXX
