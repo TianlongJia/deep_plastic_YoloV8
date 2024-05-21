@@ -30,7 +30,7 @@ Learn more about Ultralytics YOLOv8 at [documentation](https://docs.ultralytics.
 ```bash
 conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
-(1) Install other packages
+(2) Install other packages
 
 ```bash
   pip install -r requirements.txt
