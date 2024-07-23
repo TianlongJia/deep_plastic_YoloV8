@@ -41,6 +41,13 @@ conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=
 -  `main_Train_.ipynb` is the code for training the Yolov8 model for object detection.
 -  `main_Evaluate.ipynb` is the code for (1) evaluating model performances on test sets (e.g., output mAP50, precision and recall), (2) predicting objects in images and videos, and (3) outputing bounding box (bbox) information (e.g., the area of each bbox).
 
+## Model weights
+
+The trained model weight files from the pubilication can be found in:
+
+```bash
+https://doi.org/10.5281/zenodo.12800597
+```
 
 ## Citing this dataste or paper
 
