@@ -43,10 +43,7 @@ conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=
 
 ## Model weights
 
-The trained model weight files from the pubilication can be found in:
-
-```bash
-https://doi.org/10.5281/zenodo.12800597
+The trained model weight files from the pubilication can be found [here](https://doi.org/10.5281/zenodo.12800597)
 ```
 
 ## Citing this dataste or paper
