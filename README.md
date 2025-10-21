@@ -14,10 +14,10 @@ Learn more about Ultralytics YOLOv8 at [documentation](https://docs.ultralytics.
 
 ## Dataset
 
-"XXX" dataset is a new labelled dataset for detecting floating plastic litter and water hyacinths with computer vision. It includes 272 images and 9,352 annotated plastic litter items and water hyacinths (with bounding boxes). This dataset and further details can be found in:
+The dataset used in this study is a new labelled dataset for detecting floating plastic litter and water hyacinths with computer vision. It includes 272 images and 9,352 annotated plastic litter items and water hyacinths (with bounding boxes). This dataset and further details can be found in:
 
 ```bash
-  To do: XXXXXXXX
+https://doi.org/10.4121/78bb4822-7b70-4632-887a-7cacd344024e
 ```
 
 ## Requirements:
