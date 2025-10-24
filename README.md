@@ -2,7 +2,7 @@
 
 This repository contains the code used for the following publication:
 ```bash
-  To do: XXXXXXXX
+van Emmerik, T., Janssen, T., Jia, T., Bui, T. K. L., Taormina, R., Quan, N. H., & Schreyers, L. (2025). Plastic pollution and water hyacinths consistently co-occur in the lower Saigon river. Environmental Research: Water. 1, 045001.
 ```
 
 The aim of this code is to use Yolov8 deep learning model to detect floating plastic litter and water hyacinths in the Saigon rivers, Vietnam.
@@ -50,7 +50,7 @@ The trained model weight files from the pubilication can be found [here](https:/
 If you find this code and dataset are useful in your research or wish to refer to the paper, please use the following BibTeX entry.
 
 ```BibTeX
-XXXXX
+To do
 ```
 
 ## Contact
