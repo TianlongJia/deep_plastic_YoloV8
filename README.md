@@ -50,7 +50,12 @@ The trained model weight files from the pubilication can be found [here](https:/
 If you find this code and dataset are useful in your research or wish to refer to the paper, please use the following BibTeX entry.
 
 ```BibTeX
-To do
+@article{van2025plastic,
+  title={Plastic pollution and water hyacinths consistently co-occur in the lower Saigon river},
+  author={van Emmerik, Tim and Janssen, Tim and Jia, Tianlong and Bui, Thanh-Khiet L and Taormina, Riccardo and Quan, Nguyen Hong and Schreyers, Louise},
+  journal={Environmental Research: Water},
+  year={2025}
+}
 ```
 
 ## Contact
