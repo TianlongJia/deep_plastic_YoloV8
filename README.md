@@ -60,4 +60,4 @@ If you find this code and dataset are useful in your research or wish to refer t
 
 ## Contact
 
-➡️ Tianlong Jia ([T.Jia@tudelft.nl](mailto:T.Jia@tudelft.nl))
+➡️ Tianlong Jia ([tianlong.jia@kit.edu](mailto:tianlong.jia@kit.edu))
