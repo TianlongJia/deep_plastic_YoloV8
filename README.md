@@ -47,7 +47,7 @@ The trained model weight files from the pubilication can be found [here](https:/
 
 ## Citing this dataste or paper
 
-If you find this code and dataset are useful in your research or wish to refer to the paper, please use the following BibTeX entry.
+If you find this code or publication is useful in your research or wish to refer to the paper, please use the following BibTeX entry.
 
 ```BibTeX
 @article{van2025plastic,
