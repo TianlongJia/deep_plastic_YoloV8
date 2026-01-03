@@ -1,6 +1,6 @@
 # Detection of floating plastic litter and water hyacinths using Yolov8 deep learning model
 
-This repository contains the code used for the following publication:
+This repository contains the code used for the following [publication](https://doi.org/10.1088/3033-4942/ae10d7):
 ```bash
 van Emmerik, T., Janssen, T., Jia, T., Bui, T. K. L., Taormina, R., Quan, N. H., & Schreyers, L. (2025). Plastic pollution and water hyacinths consistently co-occur in the lower Saigon river. Environmental Research: Water. 1, 045001.
 ```
