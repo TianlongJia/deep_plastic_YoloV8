@@ -2,7 +2,8 @@
 
 This repository contains the code used for the following [publication](https://doi.org/10.1088/3033-4942/ae10d7):
 ```bash
-van Emmerik, T., Janssen, T., Jia, T., Bui, T. K. L., Taormina, R., Quan, N. H., & Schreyers, L. (2025). Plastic pollution and water hyacinths consistently co-occur in the lower Saigon river. Environmental Research: Water. 1, 045001.
+van Emmerik, T., Janssen, T., Jia, T., Bui, T. K. L., Taormina, R., Quan, N. H., & Schreyers, L. (2025).
+Plastic pollution and water hyacinths consistently co-occur in the lower Saigon river. Environmental Research: Water. 1, 045001.
 ```
 
 The aim of this code is to use Yolov8 deep learning model to detect floating plastic litter and water hyacinths in the Saigon rivers, Vietnam.
@@ -48,6 +49,11 @@ The trained model weight files from the pubilication can be found [here](https:/
 ## Citing this code or paper
 
 If you find this code or publication is useful in your research or wish to refer to the paper, please use the following BibTeX entry.
+
+```bash
+van Emmerik, T., Janssen, T., Jia, T., Bui, T. K. L., Taormina, R., Quan, N. H., & Schreyers, L. (2025).
+Plastic pollution and water hyacinths consistently co-occur in the lower Saigon river. Environmental Research: Water. 1, 045001.
+```
 
 ```BibTeX
 @article{van2025plastic,
